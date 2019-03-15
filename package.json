@@ -1,0 +1,25 @@
+{
+  "name": "halfring",
+  "version": "1.0.2",
+  "description": "Draw half ring being quite true to the original",
+  "main": "HalfRing.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "homepage": "https://github.com/zwf193071/halfring",
+  "keywords": [
+    "canvas",
+    "halfRing"
+  ],
+  "bugs": {
+    "url": "https://github.com/zwf193071/halfring/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zwf193071/halfring.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "lucy zhu",
+  "license": "ISC"
+}
