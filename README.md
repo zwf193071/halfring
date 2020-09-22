@@ -1,9 +1,9 @@
 ![HalfRing Logo](./logo.png)
 
-![效果预览](https://zwf193071.github.io/halfring)
-
 # HalfRing
 Draw half ring with canvas which is quite true to the original.
+
+* [效果预览](https://zwf193071.github.io/halfring)
 
 # Installation
 ```
