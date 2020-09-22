@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset=utf-8>
+        <link rel="stylesheet" href="https://at.alicdn.com/t/font_946905_skfiqi0mx2.css">
+        <style>
+            body, ol, ul, dl, li, dt, dd, h1, h2, h3, h4, h5, h6, p, th, td, dl, dd, form, fieldset, legend, input, textarea,select{
+                margin: 0;
+                padding: 0;
+            }
+            body{
+                margin: 20px auto;
+                width: 1240px;
+                background: #eee;
+            }
+            .main{
+                background: #fff
+            }
+
+            .iconfont{
+                font-family: "iconfont" !important;
+            }
+            .title{
+                padding: 15px 15px 15px 0;
+                font-size: 16px;
+                border: 1px solid #E9E9E9;
+            }
+            .icon-juxing{
+                margin-left: -6px;
+                font-size: 14px;
+                color: #1890FF;
+            }
+            .clearfix:after{
+                content:"";
+                display:block;
+                visibility:hidden;
+                clear:both;
+                height:0;
+            }
+            .item{
+                float: left;
+                width: 300px;
+            }
+            .item .content{
+                float: left;
+                margin-top: 30px;
+                margin-left: 30px;
+            }
+            .item .content .icon-online{
+                margin-right: 5px;
+                font-size: 12px;
+                color: #BDCEDB;
+            }
+            .item .content .name{
+                color: #4C6072;
+                font-size: 14px;
+            }
+            .item .content .count{
+                margin-bottom: 30px;
+                color: #333;
+                font-size: 28px;
+            }
+            .item .content .des{
+                font-size: 12px;
+                color: #8396A7;
+            }
+            .item canvas{
+                float: right;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="main">
+            <div>
+                <h1 class="title">
+                    <i class="iconfont icon-juxing"></i>
+                    物理设备
+                </h1>
+                <div class="clearfix">
+                    <div class="item">
+                        <div class="content">
+                            <p class="name">交换机总数</p>
+                            <p class="count">283</p>
+                            <p class="des" style="margin-bottom: 10px;"><i class="iconfont icon-online" style="color: #24CCC7;"></i>在线 210</p>
+                            <p class="des"><i class="iconfont icon-online"></i>离线 210</p>
+                        </div>
+                        <canvas id="canvas1" width="200" height="200"></canvas>
+                    </div>
+                    <div class="item">
+                        <div class="content">
+                            <p class="name">交换机总数</p>
+                            <p class="count">283</p>
+                            <p class="des" style="margin-bottom: 10px;"><i class="iconfont icon-online" style="color: #24CCC7;"></i>在线 210</p>
+                            <p class="des"><i class="iconfont icon-online"></i>离线 210</p>
+                        </div>
+                        <canvas id="canvas2" width="200" height="200"></canvas>
+                    </div>
+                    <div class="item">
+                        <div class="content">
+                            <p class="name">交换机总数</p>
+                            <p class="count">283</p>
+                            <p class="des" style="margin-bottom: 10px;"><i class="iconfont icon-online" style="color: #24CCC7;"></i>在线 210</p>
+                            <p class="des"><i class="iconfont icon-online"></i>离线 210</p>
+                        </div>
+                        <canvas id="canvas3" width="200" height="200"></canvas>
+                    </div>
+                    <div class="item">
+                        <div class="content">
+                            <p class="name">交换机总数</p>
+                            <p class="count">283</p>
+                            <p class="des" style="margin-bottom: 10px;"><i class="iconfont icon-online" style="color: #24CCC7;"></i>在线 210</p>
+                            <p class="des"><i class="iconfont icon-online"></i>离线 210</p>
+                        </div>
+                        <canvas id="canvas4" width="200" height="200"></canvas>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        
+        <script src="./HalfRing.js"></script>
+        <script>
+            new HalfRing({
+                canvas: 'canvas1',
+                sX: 80,
+                sY: 150,
+                percent: 90
+            }).drawRing()
+            new HalfRing({
+                canvas: 'canvas2',
+                sX: 100,
+                sY: 150,
+                percent: 60
+            }).drawRing()
+            new HalfRing({
+                canvas: 'canvas3',
+                sX: 100,
+                sY: 150,
+                percent: 31
+            }).drawRing()
+            new HalfRing({
+                canvas: 'canvas4',
+                sX: 100,
+                sY: 150,
+                percent: 71
+            }).drawRing()
+        </script>
+    </body>
+</html>
