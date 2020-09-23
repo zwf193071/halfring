@@ -89,7 +89,8 @@ class HalfRing {
     }
     drawRing () {
         this._drawOuterRing()
-        this._drawInnerRing()
+        if (this.percent) {
+            this._drawInnerRing()
+        }
     }
 }
-module.exports = HalfRing
